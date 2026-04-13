@@ -153,24 +153,10 @@ Weights are hardcoded as signed 32-bit integer parameters (fixed-point, scale fa
 
 ---
 
-## Running Simulations
-
-```bash
-# Compile and simulate the full neural network testbench
-cd sim/
-xrun -f run_sim.sh
-
-# Or manually:
-xrun ../verilog/*.v ../testbench/tb_nn_top.v -top tb_nn_top -access +rwc -gui
-```
-
-See `sim/hdl.var` for library and view configuration details. Refer to `docs/xceliumSCUG.pdf` for full Xcelium simulator documentation.
-
----
-
 ## Authors
 - Erik Gamez - @eagsols
 - Diego Chavez - @chavez-diego
 - Daniel Rico - 
 - Hector Ramirez -
-- COMPE 572 — San Diego State University
+
+ COMPE 572 — San Diego State University
