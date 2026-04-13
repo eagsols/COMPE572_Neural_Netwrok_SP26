@@ -170,4 +170,4 @@ See `sim/hdl.var` for library and view configuration details. Refer to `docs/xce
 
 ## Authors
 
-ECE Senior Design Team — UC San Diego
+COMPE 572 — San Diego State University
